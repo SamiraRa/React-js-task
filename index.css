@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  background: #F9FAFF ;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;  
+}
+
+header{
+ display: inline-block;
+ display: flex;
+ flex-direction: row;
+ }
+ header img{
+  position: relative;
+  margin: 90; 
+  padding: 50px;
+  background: transparent  60px 105px no-repeat padding-box;
+  opacity: 1;
+  float: left;
+ }
+ .header-part{
+   position: relative;
+   top: 15px;
+   right: 0px;
+   left:100px;
+   background: transparent  no-repeat padding-box;
+  margin: 90;
+  padding: 50px;
+  
+
+ }
+ h3{
+  color: #0076BE;
+ }
+ .content{
+  top: 233px;
+  left: 942px;
+  width: 454px;
+  height: 58px;
+  
+  text-align: left;
+  font: normal normal normal 14px/20px Arial;
+  letter-spacing: 0px;
+  color: #1D1D1D;
+  opacity: 1;
+ }
+.container{
+
+  border-radius: 10px;
+  opacity: 1;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;  
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+h2{
+  position: relative;
+  left: 20px;
+  top: 10px; 
+  border: 3px ;
+text-align: left;
+font-style: Inter;
+letter-spacing: 0px;
+color: #1D1D1D;
+opacity: 1;
+}
+
+  .line{
+    border: grey 0.5px solid;
+    position: relative;
+    left: 20px;
+    
+}
+.desc{
+  position: relative;
+top: 15px;
+left: 20px;
+width: 964px;
+height: 54px;
+text-align: left;
+font-size: 15px;
+font-style:  Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.form-container{
+  position: relative ;
+  top: 10px;
+  left: 20px;
+  
+  
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #1D1D1D;
+  border-radius: 9px;
+}
+input:hover{
+   border-color: #f542f5;
+}
+label{
+  font-size: smaller;
+}
+.section-heading{
+  background-color: #035485 ;
+  color:#F9FAFF;
+  width: 100%;
+  text-align: inherit;
+  font-size: 20px;
+  margin: 20px 0;
+height: 40px;
+align-content: center;
+justify-content: center;
+}
+h4{
+  justify-self: flex-start;
+}
+.sub-button Button{
+  display: inline-block;
+  position: relative;
+  top: 10px;
+background-color: #035485;
+font: Arial;
+color: #FFFFFF;
+opacity: 1;
+}
+.btn1{
+  display: inline-block;
+  margin: 18px;
+  padding: 6px 12px;
+  border: 0 none;
+  font-weight:lighter;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.btn2{
+  text-decoration: none;
+  position: relative;
+  left: 60px;
+  top: 10px;
+  color: #035485;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
